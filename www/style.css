@@ -1,0 +1,137 @@
+
+.slider {
+  height: 100%;
+}
+.slider-slide {
+  padding-top: 80px;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  font-weight: 300;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+#logo {
+  margin: 30px 0px;
+}
+#list {
+  margin: 30px auto;
+  width: 170px;
+  font-size: 20px;
+}
+#list ol {
+  margin-top: 30px;
+}
+#list ol li {
+  margin: 10px 0px;
+  list-style: decimal;
+  text-align: left;
+}
+
+#left-nav {
+    position: absolute;
+    width: 200px;
+    top: 0px;
+    left:0px;
+    bottom: 0px;
+    background: #484B4C;
+    border-right: solid 1px #000;
+    color: #ddd;
+}
+#left-nav>.welcome {
+    padding: 8px;
+}
+
+#left-nav>.list>li {
+    border-bottom: solid 1px #444;
+    padding: 8px;
+}
+.list-item:not(:first-of-type) {
+    border-top: solid 1px #555;
+}
+
+#left-nav>.list>.list-item h3 {
+    margin: 0px;
+    font-size: 16px;
+    color: #e5e5e5;
+}
+
+#left-nav>.list>.list-item p {
+    margin: 0px;
+}
+
+#left-nav>.list>li:active {
+    background-color: #393939;
+}
+#left-nav>.title {
+    background: #393939;
+    /*opacity: .3;*/
+    padding: 4px;
+    border-top: solid 1px #555;
+    border-bottom: solid 1px #333;
+    /*border-bottom: solid 1px #555;*/
+}
+
+#left-nav i {
+    font-size: 28px;
+    float:left;
+    margin-right: 8px;
+    width: 28px;
+}
+
+.button.button-icon.input-button {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: #bbb;
+}
+.item img {
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.list .my-item.item {
+  left: 0;
+  right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.card-header {
+  padding:2px;
+  border:1px solid gray;
+  display: inline-block; 
+}
+
+.fancy-frame2 {
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+border-color: #09C #F0F0F0;
+border-image: none;
+border-radius: 100px 0 100px 0;
+-webkit-border-radius: 100px 0 100px 0;
+-moz-border-radius: 100px 0 100px 0;
+border-style: solid;
+border-width: 5px;
+box-shadow: 0 0 4px 0 #666666;
+}
+
+.A-grade {
+  background-color:#53a93f;
+}
+.B-grade {
+  background-color:#427fed;
+}
+.C-grade {
+  background-color:#FF7E00;
+}
+.O-grade {
+  background-color: rgb(221,75,57);
+}
+
+.is-active {
+  color:#0088cc;
+}
